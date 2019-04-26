@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    // return view('welcome');
-    $blogsArticles = DB::table('blogs')->get();
-    return $blogsArticles;
+    return view('welcome');
+    // $blogsArticles = DB::table('blogs')->get();
+    // return $blogsArticles;
 });
