@@ -25,7 +25,7 @@ export default class Blog extends Component {
     render() {
         return (
             <div className="container">
-                {this.state.blogs.map(blog => <li>{blog.body}</li>)};
+                {this.state.blogs.map(blog => <li>{blog.body}</li>)}
             </div>
         );
     }
